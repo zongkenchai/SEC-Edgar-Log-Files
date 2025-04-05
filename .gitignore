@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -176,4 +175,7 @@ cython_debug/
 # Parquet files
 output/
 tmp/
+*.ipynb
 *.csv
+
+scripts/lib/config.py
