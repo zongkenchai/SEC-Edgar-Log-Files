@@ -237,7 +237,7 @@ class WebDriver:
         logger.debug('Closing Web Driver')
         try:
             self.driver.quit()
-        except:
+        except Exception:
             subprocess.run('killall chrome', shell=True)
             subprocess.run('killall chromedriver', shell=True)
         
@@ -336,7 +336,7 @@ class WebDriver:
         Args:
             resolution (str): Resolution in format "width,height".
         """
-        width, height = resolution.split(',')
+        width, height = map(int, resolution.split(','))
         self.driver.set_window_size(width=width, height=height)
 
     def wait_for_download_complete(self, timeout: int = 300) -> bool:
