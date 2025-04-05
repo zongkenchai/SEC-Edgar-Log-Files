@@ -176,4 +176,4 @@ cython_debug/
 # Parquet files
 output/
 tmp/
-*.ipynb
+*.csv
