@@ -19,6 +19,14 @@ This project processes SEC Edgar log files using **Python** and **Selenium**, th
 ✅ Enriches IP addresses with geolocation data
 ✅ Provides cleaned and standardized data for analysis
 
+## Example Output
+- Schema
+<br>
+<img src="static/schema.png" alt="Schema" width="400"/>
+- Sample Data
+<br>
+<img src="static/sample_data.png" alt="Sample Data" width="400"/>
+
 ## Installation
 
 ### 1. Clone the repository
